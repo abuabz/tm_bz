@@ -154,7 +154,6 @@ h6 {
   border-radius: 44px;
   width: 498px;
   height: 351px;
-  padding-left: 47px;
 }
 #header #logo img {
   padding: 0;
@@ -1072,26 +1071,137 @@ section {
 /* Our Team Section
 --------------------------------*/
 #team {
-  background: #fff;
+/* background: #075b2f; */
+background: none;
+background-image: linear-gradient(to right, rgb(192, 187, 187) , black
+  );
   padding: 30px 0 0 0;
+  border-radius: 10px;
 }
 #abu1{
   background: #af6b16;
+  transition: background-color 1s;
+}
+#abu1:hover{
+  background: #523109;
+  transition: background-color 1s;
 }
 #sahad1{
   background: #5d7719f2;
+  transition: background-color 1s;
+}
+#sahad1:hover{
+  background: #2c380df2;
+  transition: background-color 1s;
 }
 #fayis1{
   background: #e76469;
+  transition: background-color 1s;
 }
+#fayis1:hover{
+  background: #6a2e30;
+  transition: background-color 1s;
+}
+
 #faraz1{
-  background:#836134ad;;
+  background:#836134ad;
+  transition: background-color 1s;
+
 }
+#faraz1:hover{
+  background: #4c2d07ad;
+  transition: background-color 1s;
+}
+
 #saheel1{
   background: gray;
+  transition: background-color 1s;
+}
+#saheel1:hover{
+  background: #444;
+  transition: background-color 1s;
 }
 #saheed1{
   background: rgb(3 62 81);
+  transition: background-color 1s;
+}
+#saheed1:hover{
+  background: rgb(5, 92, 122);
+  transition: background-color 1s;
+}
+#thamjeed1{
+  background: #241501;
+  transition: background-color 1s;
+}
+#thamjeed1:hover{
+  background: #724306;
+  transition: background-color 1s;
+}
+#arshad1{
+  background: rgb(2, 36, 64);
+  transition: background-color 1s;  
+}
+#arshad1:hover{
+  background: rgb(7, 72, 126);
+  transition: background-color 1s;  
+}
+#varis1{
+  background: #726a57;
+  transition: background-color 1s; 
+}
+#varis1:hover{
+  background: #413c33;
+  transition: background-color 1s; ;
+}
+#irshad1{
+  background: #68a2b7;
+  transition: background-color 1s;  
+
+}
+#irshad1:hover{
+  background: #314a53;
+  transition: background-color 1s;  
+}
+
+#ansar1{
+  background: #59a97e;
+  transition: background-color 1s;  
+}
+#ansar1:hover{
+  background: #1d3629;
+  transition: background-color 1s;
+}
+#salman1{
+  background: #933030;
+  transition: background-color 1s;
+}
+#salman1:hover{
+  background: #3c1414;
+  transition: background-color 1s;
+}
+#sadiq1{
+  background: #1d3629;
+  transition: background-color 1s;
+}
+#sadiq1:hover{
+  background: #075b2f;
+  transition: background-color 1s;
+}
+#sulthan1{
+  background: #b79f07;
+  transition: background-color 1s;
+}
+#sulthan1:hover{
+  background: #4f4403;
+  transition: background-color 1s;
+}
+#marshooq1{
+  background: #979795;
+  transition: background-color 1s;
+}
+#marshooq1:hover{
+  background: #494949;
+  transition: background-color 1s;
 }
 #team .member {
   text-align: center;
@@ -1104,6 +1214,7 @@ section {
   border-top-left-radius: 60px;
   border-top-right-radius: 11px;
 }
+
 
 #team .member .pic img {
   max-width: 100%;
