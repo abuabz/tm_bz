@@ -1,13 +1,4 @@
-/**
-* Template Name: Reveal - v4.10.0
-* Template URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background: #fff;
   color: #444;
@@ -1071,10 +1062,17 @@ section {
 /* Our Team Section
 --------------------------------*/
 #team {
-/* background: #075b2f; */
+/* background: #075b2f;
+background: none;
+background-image: linear-gradient(to right, rgb(192, 187, 187) , black
+  );
+  padding: 30px 0 0 0;
+  border-radius: 10px; */
+
   background: linear-gradient(90deg, #2CD9FF,#7EFFB2);
   animation: anim 2.5s infinite ease-in-out;
 }
+
 #abu1{
   background: #af6b16;
   transition: background-color 1s;
@@ -1200,6 +1198,34 @@ section {
   background: #494949;
   transition: background-color 1s;
 }
+#afsal1{
+  background: #052d54;
+  transition: background-color 1s;
+}
+#afsal1:hover{
+  background: #03182e;
+  transition: background-color 1s;
+}
+#backer1{
+  background: #024314;
+  transition: background-color 1s;
+}
+#backer1:hover{
+  background: #011e09;
+  transition: background-color 1s;
+}
+
+#shabeer1{
+  background: #2c2d2d;
+  transition: background-color 1s;
+}
+#shabeer1:hover{
+  background: #060606;
+  transition: background-color 1s;
+}
+
+
+
 #team .member {
   text-align: center;
   margin-bottom: 20px;
